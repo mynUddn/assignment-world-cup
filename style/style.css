@@ -66,7 +66,8 @@ main {
     height: 312px;
     background-color: black;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-top: px;
+    margin-right: 24px;
 }
 
 .all-match {
@@ -92,4 +93,64 @@ main {
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+
+}
+
+footer {
+    width: 1600px;
+    height: 444px;
+    background-color: black;
+    text-align: center;
+}
+
+.goal {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 130px;
+}
+
+hr {
+    visibility: hidden;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.footer-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    width: 898px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+/* Media Queries - Mobile Devices */
+@media only screen and (max-width: 688px){
+    
+}
+
+/* Media Queries - Mobile Devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    
 }
